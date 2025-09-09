@@ -15,6 +15,7 @@ class CreateDemoTableMalaque extends Migration
     {
         Schema::create('demo_table_malaque', function (Blueprint $table) {
             $table->id();
+            $table->string(column: 'malaque');
             $table->timestamps();
         });
     }
